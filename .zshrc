@@ -22,6 +22,15 @@ bindkey -e
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 
+
+# =========================================================
+#  aliases
+# =========================================================
+
+alias gcm="git commit -m"
+alias ga="git add"
+alias gp="git push"
+
 # =========================================================
 # Completion styles
 # =========================================================
