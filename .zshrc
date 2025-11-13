@@ -18,9 +18,11 @@ setopt appendhistory sharehistory hist_ignore_space hist_ignore_all_dups \
 # =========================================================
 # Keybindings
 # =========================================================
-bindkey -e
+bindkey -v
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
+bindkey -M viins '^F' autosuggest-accept
+bindkey -M vicmd '^F' autosuggest-accept
 
 
 # =========================================================
@@ -30,6 +32,8 @@ bindkey '^n' history-search-forward
 alias gcm="git commit -m"
 alias ga="git add"
 alias gp="git push"
+alias pr="cd ~/Desktop/projects/"
+alias pc="cd ~/Desktop/clients/"
 
 # =========================================================
 # Completion styles
